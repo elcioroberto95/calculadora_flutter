@@ -57,7 +57,7 @@ class _AfterSplash extends State<AfterSplash> {
           )
         ],
       ),
-      resizeToAvoidBottomPadding: false,
+      resizeToAvoidBottomInset : false,
       body: Column(
         children: <Widget>[
           _buildDisplay(),
